@@ -1,10 +1,10 @@
-# BMI-and-lifespan
+### BMI-and-lifespan
 Project which tells us about the life expectancy of the person on the bases of its basic medical data such as Alcohol, BMI, Polio, Total expenditure, Diphtheria, Income composition of resources etc.:
 📊 BMI and Lifespan Prediction Model
 This project explores the relationship between Body Mass Index (BMI) and life expectancy, using data analysis and machine learning techniques. The goal is to understand how BMI correlates with lifespan and to build predictive models that estimate life expectancy based on BMI and related features.
 
-🚀 Project Overview
-This repository contains:
+##🚀 Project Overview
+#This repository contains:
 • 	Data preprocessing and exploratory analysis
 • 	Visualization of BMI vs. lifespan trends
 • 	Multiple machine learning models
@@ -12,14 +12,19 @@ This repository contains:
 • 	Insights and interpretation of results
 The notebook walks through the full workflow — from raw data to a trained predictive model.
 
-📁 Repository Structure
+##📁 Repository Structure
+`├── README.md                                           # Project documentation`
+`└── bmi-and-lifespan                                    #Zip folder contains`
+   `├── Life Expectancy Data.csv                         # Dataset `
+  ` ├── bmi-and-lifespan-model_77461_MAHAJAN.ipynb       # Kaggle notebook code`
 
 
-📦 Requirements
+##📦 Requirements
 To run this project locally, install the following Python libraries:
+`pip install pandas, numpy, matplotlib, seaborn, scikit-learn etc.:`
 
 
-🔍 Exploratory Data Analysis (EDA)
+##🔍 Exploratory Data Analysis (EDA)
 The notebook includes:
 • 	Distribution of BMI and lifespan
 • 	Scatter plots and correlation heatmaps
@@ -27,7 +32,7 @@ The notebook includes:
 • 	Feature relationships and trends
 These visualizations help uncover patterns and guide model selection.
 
-🤖 Machine Learning Models
+##🤖 Machine Learning Models
 The following models were trained and evaluated:
 • 	Linear Regression
 • 	Random Forest Regressor
@@ -38,7 +43,7 @@ Each model was compared using metrics such as:
 • 	Mean Squared Error (MSE)
 • 	R² Score
 
-✅ Results
+##✅ Results
 The notebook summarizes:
 • 	Which model performed best
 • 	How BMI influences lifespan
@@ -46,25 +51,26 @@ The notebook summarizes:
 • 	Limitations and considerations
 (You can add exact numbers once you finalize the notebook.)
 
-📈 Visualizations
+##📈 Visualizations
 The project includes:
 • 	BMI vs. Life Expectancy scatter plots
 • 	Feature importance charts
 • 	Model performance comparison graphs
 These help interpret the model and understand the underlying data.
 
-🧠 Key Insights
+##🧠 Key Insights
 • 	BMI shows a measurable relationship with lifespan.
 • 	Non-linear models (like Random Forest or Gradient Boosting) often capture patterns better than simple linear models.
 • 	Feature engineering and data quality significantly impact prediction accuracy.
 
-🛠 How to Use
+##🛠 How to Use
 Clone the repository:
+`git clone https://github.com/your-username/bmi-lifespan-model.git`
 
-Run the notebook:
+#Run the notebook:
+`jupyter notebook notebook.ipynb`
 
-
-📌 Future Improvements
+##📌 Future Improvements
 • 	Add more health-related features (diet, activity level, smoking, etc.)
 • 	Hyperparameter tuning for better accuracy
 • 	Deploy the model as an API or web app
@@ -73,3 +79,6 @@ Run the notebook:
 🤝 Contributing
 Contributions are welcome!
 Feel free to open issues or submit pull requests.
+
+##Kaggle link for reference:
+`https://www.kaggle.com/code/mohitrajemdramahajan/bmi-and-lifespan-model`
